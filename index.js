@@ -26,8 +26,6 @@ function getRandomWeather() {
     const city = cities[Math.floor(Math.random() * cities.length)];
     return { city, temperature, condition };
 }
-
-
     
 // Function to log random weather data
 function logRandomWeather() {
