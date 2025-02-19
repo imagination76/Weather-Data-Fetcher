@@ -4,6 +4,8 @@ const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
 
+
+
 // Log file path
 const logFile = path.join(__dirname, 'weather_data_log.txt');
 
