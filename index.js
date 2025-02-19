@@ -7,8 +7,6 @@ const axios = require('axios');
 // Log file path
 const logFile = path.join(__dirname, 'weather_data_log.txt');
 
-
-
 // Function to log weather data
 function logWeatherData(city, temperature, condition) {
     const timestamp = new Date().toISOString();
