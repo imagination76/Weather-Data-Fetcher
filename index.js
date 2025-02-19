@@ -16,9 +16,6 @@ function logWeatherData(city, temperature, condition) {
     });
 
 // Simulated cities
-
-
-    
 const cities = ['New York', 'London', 'Tokyo', 'Sydney', 'Berlin'];
 
 // Function to get random weather data (simulating API response)
