@@ -13,7 +13,6 @@ function logWeatherData(city, temperature, condition) {
     const logEntry = `[${timestamp}] ${city}: ${temperature}°C, ${condition}\n`;
     fs.appendFile(logFile, logEntry, (err) => {
         if (err) console.error('Error writing to log file:', err);
-
     });
 
 // Simulated cities
