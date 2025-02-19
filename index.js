@@ -27,9 +27,6 @@ function getRandomWeather() {
     return { city, temperature, condition };
 }
 
-
-
-    
 // Function to log random weather data
 function logRandomWeather() {
     const weather = getRandomWeather();
