@@ -18,8 +18,6 @@ function logWeatherData(city, temperature, condition) {
     });
 }
 
-
-
 // Simulated cities
 const cities = ['New York', 'London', 'Tokyo', 'Sydney', 'Berlin'];
 
