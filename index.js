@@ -15,8 +15,6 @@ function logWeatherData(city, temperature, condition) {
         if (err) console.error('Error writing to log file:', err);
     });
 
-
-    
 // Simulated cities
 const cities = ['New York', 'London', 'Tokyo', 'Sydney', 'Berlin'];
 
